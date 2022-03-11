@@ -1,24 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 
+import { menuItems } from './menu'
 import { useRouter } from 'next/router'
 
 const Layout = ({ children }) => {
-  const menuItems = [
-    {
-      href: '/',
-      title: 'Homepage'
-    },
-    {
-      href: '/about',
-      title: 'About'
-    },
-    {
-      href: '/contact',
-      title: 'Contact'
-    }
-  ]
-
   const router = useRouter()
 
   return (
