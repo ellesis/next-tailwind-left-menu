@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen">
-      <h1 className="text-3xl">My App</h1>
+    <div className="flex h-full flex-col justify-center items-center">
+      <h1 className="text-4xl mb-5 font-bold">Home</h1>
+      <span className="text-7xl">🏡</span>
     </div>
   )
 }
