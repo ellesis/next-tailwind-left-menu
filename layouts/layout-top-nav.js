@@ -6,7 +6,7 @@ import { menuItems } from './menu'
 
 import Navbar from '../components/navbar'
 
-const Layout = ({ children }) => {
+const LayoutTopNav = ({ children }) => {
   const router = useRouter()
 
   return (
@@ -38,4 +38,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default LayoutTopNav
